@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 git_dir=~/Github
+branch=main
 
 work_dir=$git_dir/machine_learning
 cd $work_dir
@@ -15,9 +16,9 @@ bbb=72275d2ca4785
 ccc=660d8e0d9aac8
 git_password=${aaa}${bbb}${ccc} # personal access token
 git remote add origin https://"$git_id":"$git_password"@github.com/psb629/machine_learning.git
-git pull origin master
+git pull origin $branch
 
 echo "> * `users`(`ipconfig getifaddr en0`): `date`" >>$work_dir/README.md
 git add -A
 git commit -m "ran setup.sh"
-git push -u origin master
+git push -u origin $branch
