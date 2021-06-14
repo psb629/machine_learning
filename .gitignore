@@ -1,0 +1,16 @@
+# Mac OS files
+.DS_Store
+
+# Pycharm files
+.idea
+
+# jupyter files
+__pycache__
+.ipynb_checkpoints
+
+# matlab files
+.MATLABDriveTag
+
+# Ransomware
+README_FOR_DECRYPT.txt
+.encrypt
