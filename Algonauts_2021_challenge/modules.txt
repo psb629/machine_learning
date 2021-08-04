@@ -1,0 +1,12 @@
+## common
+numpy
+nilearn
+nibabel
+matplotlib
+
+## deep learning
+tqdm
+torchvision
+torch
+opencv-python
+decord
