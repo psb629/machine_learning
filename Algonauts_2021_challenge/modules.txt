@@ -10,3 +10,6 @@ torchvision
 torch
 opencv-python
 decord
+
+## jupyter
+ipywidgets
